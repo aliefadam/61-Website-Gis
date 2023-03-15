@@ -28,6 +28,10 @@ nav a {
     color: #fff8ea !important;
 }
 
+nav a:hover {
+    color: #eee5d4 !important;
+}
+
 nav img {
     width: 50px;
 }
@@ -74,4 +78,39 @@ header p {
 
 .profile p {
     text-align: justify;
+}
+
+.maps {
+    padding: 50px;
+    color: #594545;
+}
+
+.maps h1 {
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 50px;
+}
+
+.maps .row .col h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.maps .row .col iframe {
+    width: 100%;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+.kontak {
+    background-color: #815b5b;
+    padding: 50px;
+    color: #fff8ea;
+}
+
+.kontak h1 {
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 50px;
 }
